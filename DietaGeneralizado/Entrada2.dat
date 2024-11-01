@@ -1,0 +1,20 @@
+// Conjuntos
+// NOME_CONJUNTO = { valor1, valor2, valor 3, ...}
+
+ I = {Ingr1, Ingr2, Ingr3};
+ V = {A, C, D};
+ 
+ // Dados de entrada com valores
+ // vetores
+ 
+ P = [20, 45, 32];
+ 
+ Req = [40, 20, 32];
+ 
+ Qtd = [
+ 			[1, 3, 2],
+ 			[2, 2, 3],
+ 			[1, 2, 3]
+ 		];
+ 		
+ 		

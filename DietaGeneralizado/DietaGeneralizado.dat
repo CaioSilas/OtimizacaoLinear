@@ -1,0 +1,19 @@
+// Conjuntos
+// NOME_CONJUNTO = { valor1, valor2, valor 3, ...}
+
+ I = {Ingr1, Ingr2, Ingr3, Ingr4, Ingr5, Ingr6};
+ V = {A, C};
+ 
+ // Dados de entrada com valores
+ // vetores
+ 
+ P = [35, 30, 60, 50, 27, 22];
+ 
+ Req = [9, 19];
+ 
+ Qtd = [
+ 			[1, 0, 2, 2, 1, 2],
+ 			[0, 1, 3, 1, 3, 2]
+ 		];
+ 		
+ 		
