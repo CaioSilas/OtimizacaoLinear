@@ -1,0 +1,102 @@
+/*********************************************
+ * OPL 20.1.0.0 Data
+ * Author: silas
+ * Creation Date: 4 de ago de 2024 at 11:52:40
+ *********************************************/
+//Pilhas={Pilha1, Pilha2, Pilha3};
+//
+//Parametros={Fe, Al2O3, P, PPC, He};
+//// porcentagem que existe na pilha i do parametro j
+//t = [
+//		[52.64, 0.32, 0.084, 4.48, 45],
+//		[47.92, 0.18, 0.029, 2.25, 42],
+//		[47.19, 0.30, 0.050, 2.52, 52]	
+//	];
+//// limite inferior para os parametros	
+//tl = [44.50, 0.12, 0.035, 2.05, 38];
+//// limite superior para os parametros
+//tu = [49.5, 0.27, 0.043, 2.65, 50];
+//// quantidade de minÃ©rio em cada pilha
+//Qu = [1500, 1500, 1700];
+//
+////custo de extraÃ§Ã£o do minÃ©rio em cada pilha
+//c = [10, 6, 9];
+//
+//// quantidade total de minÃ©rio
+//p = 3000;
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//// Conjunto de pilhas
+//Pilhas = {"Pilha1", "Pilha2", "Pilha3"};
+//
+//// Conjunto de parâmetros
+//Parametros = {"Teor1", "Teor2"};
+//
+//// % do parâmetro de controle em uma tonelada da pilha
+//tij = [
+//  ["Pilha1" "Teor1"] 0.5, ["Pilha1" "Teor2"] 0.3,
+//  ["Pilha2" "Teor1"] 0.4, ["Pilha2" "Teor2"] 0.2,
+//  ["Pilha3" "Teor1"] 0.6, ["Pilha3" "Teor2"] 0.4
+//];
+//
+//// % mínimo admissível para o parâmetro
+//tlj = ["Teor1" 0.35, "Teor2" 0.25];
+//
+//// % máximo admissível para o parâmetro
+//tuj = ["Teor1" 0.55, "Teor2" 0.35];
+//
+//// Quantidade máxima de minério na pilha
+//Qui = ["Pilha1" 100, "Pilha2" 200, "Pilha3" 150];
+//
+//// Quantidade em toneladas da mistura a ser formada
+//p = 400;
+//
+//// Peso para o desvio negativo de especificação
+//wnej = ["Teor1" 1.0, "Teor2" 1.2];
+//
+//// Peso para o desvio positivo de especificação
+//wpej = ["Teor1" 0.8, "Teor2" 1.0];
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Conjunto de pilhas
+Pilhas = {"Pilha1", "Pilha2", "Pilha3", ..., "Pilha15"};
+
+// Conjunto de parâmetros
+Parametros = {"Fe", "Al2O3", ...};
+
+// % do parâmetro de controle em uma tonelada da pilha
+tij = [
+  ["Pilha1" "Fe"] 0.5, ["Pilha1" "Al2O3"] 0.3,
+  ["Pilha2" "Fe"] 0.4, ["Pilha2" "Al2O3"] 0.2,
+  // ... continue para todas as pilhas e parâmetros
+  ["Pilha15" "Fe"] 0.6, ["Pilha15" "Al2O3"] 0.4
+];
+
+// % mínimo admissível para o parâmetro
+tlj = ["Fe" 0.35, "Al2O3" 0.25, ...];
+
+// % recomendável para o parâmetro
+trj = ["Fe" 0.45, "Al2O3" 0.3, ...];
+
+// % máximo admissível para o parâmetro
+tuj = ["Fe" 0.55, "Al2O3" 0.35, ...];
+
+// Quantidade máxima de minério na pilha
+Qui = ["Pilha1" 100, "Pilha2" 200, ..., "Pilha15" 150];
+
+// Quantidade em toneladas da mistura a ser formada
+p = 6000;
+
+// Peso para o desvio negativo da meta (recomendável)
+wnmj = ["Fe" 1.0, "Al2O3" 1.2, ...];
+
+// Peso para o desvio positivo da meta (recomendável)
+wpmj = ["Fe" 0.8, "Al2O3" 1.0, ...];
+
+// Peso para o desvio negativo de especificação
+wnej = ["Fe" 1.5, "Al2O3" 1.7, ...];
+
+// Peso para o desvio positivo de especificação
+wpej = ["Fe" 1.3, "Al2O3" 1.6, ...];

@@ -1,0 +1,193 @@
+/*********************************************
+ * OPL 20.1.0.0 Data
+ * Author: silas
+ * Creation Date: 25 de jul de 2024 at 21:36:19
+ *********************************************/
+
+// // Conjuntos dieta
+//
+// I = {Ingr1, Ingr2, Ingr3, Ingr4, Ingr5, Ingr6};
+// V = {A, C};
+// 
+// // Dados de entrada com valores
+// // vetores
+// 
+// P = [35, 30, 60, 50, 27, 22];
+// 
+// Req = [9, 19];
+// 
+// Qtd = [
+// 			[1, 0, 2, 2, 1, 2],
+// 			[0, 1, 3, 1, 3, 2]
+// 		];
+ 		
+/***************************************************************************************************/
+//conjuto fazenda
+////Fazendas 
+//F = {fazenda1,fazenda2,fazenda3};
+////Culturas que vao ser cultivadas
+//C = {milho,arroz,feijao};
+//
+//Areaf = [400 , 650 , 350]; //area da fazenda a ser cultivada
+//Aguaf = [1800 ,2200 , 950];//agua disponivel
+//Amax = [660 , 880 , 400]; //area maxima de cultivo
+//ConsAguac = [5.5 ,4 ,3.5]; //quantidade de agua gasta por cultivo
+//Lucroc = [5000 , 4000 ,1800]; //lucro por cultivo
+
+/******************************************************************************************************/
+
+////conjunto sitio
+//
+//Armmax = [60];
+//Areamax = [200000];
+//C = [trigo,arroz,milho];
+//Demc = [400 , 800 ,10000];
+//Prodc = [0.2 , 0.3 , 0.4];
+//Lucroc = [10.8 , 4.2 , 2.03];
+
+/****************************************************************************************************/
+////conjunto gasolina
+//// Tipos de gasolina
+//I = {"A", "Z", "S"};
+//
+//// Tipos de petróleo
+//J = {1, 2, 3, 4};
+//
+//// Preços de venda por barril da gasolina produzida a partir do petróleo
+//p = [
+//  [50, 60, 70, 80], // Preços para gasolina A
+//  [40, 50, 60, 70], // Preços para gasolina Z
+//  [30, 40, 50, 60]  // Preços para gasolina S
+//];
+//
+//// Custo por barril do tipo de petróleo
+//c = [10, 20, 30, 40];
+//
+//// Quantidade máxima disponível do tipo de petróleo
+//D = [1000, 2000, 3000, 4000];
+//
+//// Percentuais máximos do petróleo j na gasolina i
+//maxPercent = [
+//  [0.7, 1.0, 1.0, 1.0], // Máximos para gasolina A
+//  [0.3, 1.0, 1.0, 1.0], // Máximos para gasolina Z
+//  [0.3, 0.5, 0.5, 1.0]  // Máximos para gasolina S
+//];
+//
+//// Percentuais mínimos do petróleo j na gasolina i
+//minPercent = [
+//  [0.0, 0.0, 0.0, 0.0], // Mínimos para gasolina A
+//  [0.0, 0.1, 0.0, 0.0], // Mínimos para gasolina Z
+//  [0.0, 0.4, 0.0, 0.0]  // Mínimos para gasolina S
+//];
+/******************************************************************************************************/
+////conjunto Ligas metalicas
+//// Tipos de ligas
+//Ligas = {"Baixa", "Alta"};
+//
+//// Preços por tonelada de cada liga
+//preco = [
+//  "Baixa" 3000,
+//  "Alta" 5000
+//];
+//
+//// Disponibilidade de materiais (toneladas)
+//disponCobre = 16;
+//disponZinco = 11;
+//disponChumbo = 15;
+//
+//// Consumo por tonelada de cada liga
+//consumoCobre = [
+//  "Baixa" 0.5,
+//  "Alta" 0.2
+//];
+//consumoZinco = [
+//  "Baixa" 0.25,
+//  "Alta" 0.3
+//];
+//consumoChumbo = [
+//  "Baixa" 0.25,
+//  "Alta" 0.5
+//];
+
+/******************************************************************************************************/
+////conjunto do atleta indeciso
+//// Conjunto de atividades
+//Atividades = {"Tênis", "CorridaMonitorada"};
+//
+//// Parâmetros dos treinos
+//custo = [
+//  "Tênis" 3,
+//  "CorridaMonitorada" 2
+//];
+//
+//calorias = [
+//  "Tênis" 1500,
+//  "CorridaMonitorada" 1000
+//];
+//
+//tempo = [
+//  "Tênis" 2,
+//  "CorridaMonitorada" 2
+//];
+//
+//// Restrições
+//orçamento = 70;       // Orçamento disponível
+//caloriasMax = 80000;  // Limite de calorias disponíveis
+//tempoMax = 18;        // Tempo disponível
+
+/******************************************************************************************************************************/
+//// Tipos de matrizes e produtos
+//Matrizes = {"Matriz1", "Matriz2", "Matriz3"}; // Exemplos de matrizes
+//Produtos = {"ProdutoA", "ProdutoB"};          // Exemplos de produtos
+//
+//// Custo por chapa de cada matriz
+//custo = [
+//  "Matriz1" 10,
+//  "Matriz2" 15,
+//  "Matriz3" 20
+//];
+//
+//// Demanda mínima para cada produto
+//demanda = [
+//  "ProdutoA" 100,
+//  "ProdutoB" 150
+//];
+//
+//// Quantidade de chapas da matriz que contribui para o produto
+//a = [
+//  "Matriz1": ["ProdutoA" 2, "ProdutoB" 3],
+//  "Matriz2": ["ProdutoA" 1, "ProdutoB" 4],
+//  "Matriz3": ["ProdutoA" 3, "ProdutoB" 2]
+//];
+
+/******************************************************************************************************************************/
+////conjunto da ração
+//// Tipos de ração
+//Racoes = {"AMS", "RE"};
+//
+//// Preço de venda e custo por unidade de cada tipo de ração
+//preco = [
+//  "AMS" 20,
+//  "RE" 30
+//];
+//
+//custo = [
+//  "AMS" 9,
+//  "RE" 18
+//];
+//
+//// Quantidade de cereais e carne necessária por unidade de cada tipo de ração
+//cereais = [
+//  "AMS" 5,
+//  "RE" 2
+//];
+//
+//carne = [
+//  "AMS" 1,
+//  "RE" 4
+//];
+//
+//// Disponibilidade total de materiais
+//disponibilidadeCarne = 10000; // kg de carne disponível
+//disponibilidadeCereais = 30000; // kg de cereais disponível
+

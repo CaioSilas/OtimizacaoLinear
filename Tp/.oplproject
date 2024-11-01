@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+	<version>1.0</version>
+	<configs>
+		<config default="true" name="Configuracao1" category="opl">
+			<ref name="tp.mod" type="model">
+			</ref>
+			<ref name="tp.ops" type="setting">
+			</ref>
+			<ref name="tp.dat" type="data">
+			</ref>
+		</config>
+		<config default="false" name="Configuracao2" category="opl">
+			<ref name="tp2.mod" type="model">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

@@ -1,0 +1,20 @@
+Em uma fábrica, a demanda de folhas para cinco tipos de produtos é a seguinte:
+
+Demanda:
+Folha A: 30 unidades
+Folha B: 20 unidades
+Folha C: 15 unidades
+Folha D: 25 unidades
+Folha E: 10 unidades
+A fábrica possui seis padrões de corte diferentes para otimizar a produção dos rolos de papel:
+
+Padrões de Corte:
+Padrão 1: Corta 6 unidades de Folha A.
+Padrão 2: Corta 5 unidades de Folha B.
+Padrão 3: Corta 3 unidades de Folha A e 2 unidades de Folha B.
+Padrão 4: Corta 4 unidades de Folha C.
+Padrão 5: Corta 2 unidades de Folha A, 2 unidades de Folha B, 1 unidade de Folha C, e 1 unidade de Folha D.
+Padrão 6: Corta 3 unidades de Folha D e 5 unidades de Folha E.
+O objetivo é escolher uma combinação desses padrões de corte que minimize o número de rolos utilizados, enquanto atende à demanda de cada tipo de folha.
+
+A solução envolve determinar quantas vezes cada padrão deve ser aplicado para atingir a demanda exata de cada folha, reduzindo o desperdício e otimizando o uso dos materiais.
